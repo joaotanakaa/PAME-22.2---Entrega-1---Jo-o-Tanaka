@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bloco inicial contém 2 blocos na vertical, um na esquerda (imagem) o outro na direita com as informações a serem preenchidas-->
+    <div class="container">
+        <img class = "imagem1" src="./Assets/escritorio.jfif"/> 
+
+        
+
+        <div class="big_box">
+            
+            <!-- Título -->
+            <h1 class="markt" style="text-align: left; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Não vá embora agora!
+            </h1>
+
+            <!--parágrafo abaixo do título-->
+            <p style="font-size: 120%;">
+                <mark>Preencha nosso formulário e receba conteúdos exclusivos para te ajudar com problemas relacionados à engenharia</mark>
+            </p>
+            <!--Caixas para inserir Nome e E-mail-->
+            <input type="text" placeholder="Nome*">
+            <br>
+            <input type="text" placeholder="Email*">
+            <br>
+            <p style="font-size: 120%; color: gray;"> Áreas de interesse </p>
+            <div class="short_box">
+
+                <input type="checkbox" name="arq&con" id="arq&con"> 
+                <label for="arq&con">Arquitetura e Construção</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="empreend&start" id="empreend&start"> 
+                <label for="empreend&startup">Empreendedorismo e Startup</label>
+            </div> 
+            <div class="short_box">
+                <input type="checkbox" name="energ&sust" id="energ&sust"> 
+                <label for="energ&sust">Energia e Sustentabilidade</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="engquim&alim" id="engquim&alim"> 
+                <label for="engquim&alim">Engenharia Química e Alimentos</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="engufrj" id="engufrj"> 
+                <label for="engufrj">Engenharia UFRJ</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="gestemp" id="gestemp"> 
+                <label for="gestemp">Gestão Empresarial</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="projmec" id="projmec"> 
+                <label for="projmec">Projetos Mecânicos</label>
+            </div>
+            <div class="short_box">
+                <input type="checkbox" name="tecinf" id="tecinf"> 
+                <label for="tecinf">Tecnologia da Informação</label>
+            </div>
+            
+            <input type="button" class="button" onclick="alert('Formulário foi enviado')" value="TENHO INTERESSE">
+
+            
+        </div>
+        <img class="imagem3" src="./Assets/iconex.svg"/>
+        <img class = "imagem2" src="./Assets/logo.webp"/>
+    </div>
+    
+</body>
+</html>

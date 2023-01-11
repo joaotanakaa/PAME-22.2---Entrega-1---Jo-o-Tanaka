@@ -1,0 +1,104 @@
+body{
+    margin:3;
+    padding:0;
+}
+
+.imagem1{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.imagem2{
+
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    right: 1450px;
+    top: 75px;
+
+
+
+}
+
+.imagem3{
+
+    width: 1.5vw;
+    height: 2vh;
+    position: relative;
+    top: 75px;
+    right: 45px;
+
+}
+
+mark{
+    background: orange;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.big_box{
+
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0;
+    margin: 50px;
+    padding: 0;
+
+    /* cores */
+
+    background-color: white;
+    border-color: white;
+    color: black;
+
+    /* FlexBox */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+}
+/*Fonte para o parágrafo*/
+
+
+/*Fonte para o Título*/
+.markt{
+    font-size: 300%;
+}
+
+
+
+input{
+    height: 3vh;
+    border-radius: 10px;   
+    margin: 5px;
+}
+
+.short_box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.button {
+    background: #e89505;
+    color: white;
+    border-style: outset;
+    border-color: #e89505;
+    height: 50px;
+    width: 30vw;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    
+}
