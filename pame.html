@@ -10,20 +10,25 @@
 <body>
     <!-- Bloco inicial contém 2 blocos na vertical, um na esquerda (imagem) o outro na direita com as informações a serem preenchidas-->
     <div class="container">
-        <img class = "imagem1" src="./Assets/escritorio.jfif"/> 
+        <!--Imagem do escritorio-->
+
+        <div class="big_box1">
+            <img class = "imagem2" src="./Assets/logo.webp"/>
+        </div>
+         
 
         
 
-        <div class="big_box">
+        <div class="big_box2">
             
             <!-- Título -->
-            <h1 class="markt" style="text-align: left; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h1 class="markt" style="text-align: left; font-family: Verdana, sans-serif">
                 Não vá embora agora!
             </h1>
 
             <!--parágrafo abaixo do título-->
-            <p style="font-size: 120%;">
-                <mark>Preencha nosso formulário e receba conteúdos exclusivos para te ajudar com problemas relacionados à engenharia</mark>
+            <p style="font-size: 100%; font-family: Arial, sans serif">
+                <mark>Até agora, o período trainee tem sido, acima de tudo um grande desafio. Estou tendo que me reinventar, pesquisar, e aprender muito para realizar boas entregas dentro daquilo que sou capaz. Estou gostando demais da experiência e acredito que ela esteja sendo não só agregadora para minha vida profissional mas também pessoal.</mark>
             </p>
             <!--Caixas para inserir Nome e E-mail-->
             <input type="text" placeholder="Nome*">
@@ -32,45 +37,48 @@
             <br>
             <p style="font-size: 120%; color: gray;"> Áreas de interesse </p>
             <div class="short_box">
-
+            <!-- caixas para selecionar a area de interesse-->
                 <input type="checkbox" name="arq&con" id="arq&con"> 
-                <label for="arq&con">Arquitetura e Construção</label>
+                <label for="arq&con" style = "font-family: Arial, sans serif">Arquitetura e Construção</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="empreend&start" id="empreend&start"> 
-                <label for="empreend&startup">Empreendedorismo e Startup</label>
+                <label for="empreend&startup" style = "font-family: Arial, sans serif">Empreendedorismo e Startup</label>
             </div> 
             <div class="short_box">
                 <input type="checkbox" name="energ&sust" id="energ&sust"> 
-                <label for="energ&sust">Energia e Sustentabilidade</label>
+                <label for="energ&sust" style = "font-family: Arial, sans serif">Energia e Sustentabilidade</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="engquim&alim" id="engquim&alim"> 
-                <label for="engquim&alim">Engenharia Química e Alimentos</label>
+                <label for="engquim&alim" style = "font-family: Arial, sans serif">Engenharia Química e Alimentos</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="engufrj" id="engufrj"> 
-                <label for="engufrj">Engenharia UFRJ</label>
+                <label for="engufrj" style = "font-family: Arial, sans serif">Engenharia UFRJ</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="gestemp" id="gestemp"> 
-                <label for="gestemp">Gestão Empresarial</label>
+                <label for="gestemp" style = "font-family: Arial, sans serif">Gestão Empresarial</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="projmec" id="projmec"> 
-                <label for="projmec">Projetos Mecânicos</label>
+                <label for="projmec" style = "font-family: Arial, sans serif">Projetos Mecânicos</label>
             </div>
             <div class="short_box">
                 <input type="checkbox" name="tecinf" id="tecinf"> 
-                <label for="tecinf">Tecnologia da Informação</label>
+                <label for="tecinf" style = "font-family: Arial, sans serif">Tecnologia da Informação</label>
             </div>
             
-            <input type="button" class="button" onclick="alert('Formulário foi enviado')" value="TENHO INTERESSE">
+            <!--Botao-->
+            <input type="button" class="button" onclick="alert('Formulário Enviado')" value="TENHO INTERESSE">
 
             
         </div>
+
+
         <img class="imagem3" src="./Assets/iconex.svg"/>
-        <img class = "imagem2" src="./Assets/logo.webp"/>
+        <!--<img class = "imagem2" src="./Assets/logo.webp"/> -->
     </div>
     
 </body>

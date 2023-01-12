@@ -1,39 +1,59 @@
 body{
-    margin:3;
+    margin:0;
     padding:0;
 }
 
-.imagem1{
-    width: 50vw;
-    height: 100vh;
-    position: relative;
-}
+input[type="checkbox"]{
 
-.imagem2{
-
-    width: 20vw;
-    height: 20vh;
-    position: relative;
-    right: 1450px;
-    top: 75px;
-
-
+accent-color: orange;
 
 }
 
-.imagem3{
-
-    width: 1.5vw;
-    height: 2vh;
-    position: relative;
-    top: 75px;
-    right: 45px;
-
+input{
+    height: 3vh;
+    border-radius: 10px;   
+    margin: 5px;
 }
 
 mark{
     background: orange;
 }
+
+/*Imagem do escritorio*/
+
+.imagem1{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    border-radius: 50px;
+    filter: sepia(70%) saturate(150%);
+    
+}
+
+/*Imagem do logo da fluxo */
+
+.imagem2{
+
+    width: 30vw;
+    height: 40vh;
+    position: relative;
+    bottom: 200px;
+
+}
+
+/*imagem do icone x*/
+
+.imagem3{
+
+    position: relative;
+    top: 27px;
+    right: 45px;
+    width:1.5vw;
+    height:3vh;
+
+}
+
+/*container onde tudo sera colocado*/
 .container{
     display: flex;
     flex-direction: row;
@@ -41,13 +61,52 @@ mark{
 
 }
 
-.big_box{
+
+/*Caixa da esquerda, onde está a imagem do escritorio e o logo da fluxo*/
+
+.big_box1{
+
+    background-image: url(./Assets/escritorio.jfif);
+    background-size: 120vh 100vw;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+
+
+    filter: sepia(70%) saturate(160%);
+    
+    
 
     width: 50vw;
     height: 100vh;
     border-radius: 0;
-    margin: 50px;
     padding: 0;
+
+    /* cores */
+
+    background-color: white;
+    border-color: white;
+    color: black;
+
+    /* FlexBox */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*caixa da direita, onde estao as informacoes a serem preenchidas*/
+
+.big_box2{
+
+    width: 45vw;
+    height: 100vh;
+    border-radius: 0;
+    margin: 0 0 0 50px;
+    padding: 0;
+    
 
     /* cores */
 
@@ -63,22 +122,18 @@ mark{
     align-items: left;
 
 }
-/*Fonte para o parágrafo*/
 
 
 /*Fonte para o Título*/
 .markt{
-    font-size: 300%;
+    font-size: 250%;
 }
 
 
 
-input{
-    height: 3vh;
-    border-radius: 10px;   
-    margin: 5px;
-}
 
+
+/*Box pequena para colocar o icone x*/
 .short_box{
 
     display: flex;
@@ -89,16 +144,14 @@ input{
 }
 
 .button {
+    font-size: 200%;
+    margin: 35px;
     background: #e89505;
     color: white;
-    border-style: outset;
     border-color: #e89505;
     height: 50px;
     width: 30vw;
-    font: bold15px arial,sans-serif;
-    text-shadow: none;
-    margin: 80px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
 }
+
